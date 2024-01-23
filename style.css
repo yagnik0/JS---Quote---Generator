@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(pexels-janko-ferlic-590493.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.head-style {
+    background-color: black;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    margin-bottom: 1.8rem;
+}
+
+.main-content {
+    max-width: 40rem;
+    background-color: aliceblue;
+    padding: 3rem;
+    text-align: center;
+    border-radius: 0.8rem;
+}
+
+.quotes {
+    font-size: 2rem;
+    color: #333;
+    font-weight: 400;
+}
+
+.given-by {
+    margin: 1.2rem  0;
+    color: #ea7777;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+.btn-main {
+    background-color: #000;
+    color: #fff;
+    padding:  0.8rem 1.6rem;
+    cursor: pointer;
+    border-radius: 0.8rem;
+    border: none;
+    transition: all 0.3s;
+}
+
+.btn-main:hover {
+    background-color: #2a2727;
+}
+
+@media (max-width:40em) {
+    .main-content {
+        max-width: 20rem;
+        padding: 2rem;
+    }
+
+    .head-style {
+        font-size: 0.8rem;
+    }
+
+    .quotes {
+        font-size: 1.4rem;
+    }
+}
+
